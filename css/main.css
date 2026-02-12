@@ -65,15 +65,15 @@ body {
 }
  
 .titulo-3 {
-  opacity: 1;
-  animation: fadeIn 8s ease forwards;
-  animation-delay: 7s;
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 14s;
 }
  
 .titulo-4 {
-  opacity: 1;
-  animation: fadeIn 12s ease forwards;
-  animation-delay: 7s;
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 21s;
 }
 @keyframes fadeIn {
   from {
