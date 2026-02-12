@@ -73,16 +73,17 @@ body {
 
 .titulo-4 {
   opacity: 0;
-  animation: fadeIn 4s ease forwards;
+  animation: fadeInOut 9s ease forwards;
   animation-delay: 21s;
 }
+
+/* 🔹 CERRADO CORRECTAMENTE */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 🔹 ESTE YA ESTABA BIEN */
 @keyframes fadeInOut {
   0%   { opacity: 0; }
   15%  { opacity: 1; }
