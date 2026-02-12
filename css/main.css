@@ -65,13 +65,13 @@ body {
 }
  
 .titulo-3 {
-  opacity: 0;
+  opacity: 1;
   animation: fadeIn 8s ease forwards;
   animation-delay: 7s;
 }
  
 .titulo-4 {
-  opacity: 0;
+  opacity: 1;
   animation: fadeIn 12s ease forwards;
   animation-delay: 7s;
 }
