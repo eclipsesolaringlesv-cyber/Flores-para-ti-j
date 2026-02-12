@@ -55,25 +55,25 @@ body {
  
 .titulo-1 {
   opacity: 0;
-  animation: fadeInOut 7s ease;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 0s;
 }
 
 .titulo-2 {
   opacity: 0;
-  animation: fadeInOut 7s ease;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 7s;
 }
 
 .titulo-3 {
   opacity: 0;
-  animation: fadeInOut 7s ease;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 14s;
 }
 
 .titulo-4 {
   opacity: 0;
-  animation: fadeInOut 7s ease;
+  animation: fadeIn 4s ease forwards;
   animation-delay: 21s;
 }
 @keyframes fadeIn {
