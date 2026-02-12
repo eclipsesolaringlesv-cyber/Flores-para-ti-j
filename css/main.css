@@ -56,23 +56,24 @@ body {
 .titulo-1 {
   opacity: 0;
   animation: fadeInOut 7s ease forwards;
+  animation-delay: 0s;
 }
 
 .titulo-2 {
   opacity: 0;
-  animation: fadeIn 4s ease forwards;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 7s;
 }
- 
+
 .titulo-3 {
   opacity: 0;
-  animation: fadeIn 4s ease forwards;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 14s;
 }
- 
+
 .titulo-4 {
   opacity: 0;
-  animation: fadeIn 4s ease forwards;
+  animation: fadeInOut 7s ease forwards;
   animation-delay: 21s;
 }
 @keyframes fadeIn {
@@ -82,7 +83,13 @@ body {
   to {
     opacity: 1;
   }
+@keyframes fadeInOut {
+  0%   { opacity: 0; }
+  15%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { opacity: 0; }
 }
+
 
 .night {
   z-index: -1;
