@@ -1699,5 +1699,26 @@ h1 {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+.btn-pdf {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 30px;
+  background: #f2a1c7;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  z-index: 50;
+  opacity: 0;
+  transition: opacity 1s ease, transform 0.3s ease;
+}
+
+.btn-pdf:hover {
+  background: #ff69b4;
+  transform: translateX(-50%) scale(1.05);
+}
 
 /* Agregar más estilos según sea necesario */
