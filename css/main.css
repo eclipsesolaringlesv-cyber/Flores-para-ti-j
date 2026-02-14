@@ -1699,24 +1699,22 @@ h1 {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-.boton-pdf {
+.btn-pdf {
   position: fixed;
-  bottom: 30px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 12px 24px;
-  background-color: #f2a1c7;
+  padding: 14px 30px;
+  background: #f2a1c7;
   color: white;
   text-decoration: none;
-  font-weight: bold;
   border-radius: 30px;
-  font-family: Arial, sans-serif;
-  z-index: 9999; /* MUY IMPORTANTE */
-  box-shadow: 0 0 15px rgba(242, 161, 199, 0.6);
+  font-weight: bold;
+  letter-spacing: 1px;
+  z-index: 50;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
-.boton-pdf:hover {
-  background-color: #ff7eb6;
-}
 
 /* Agregar más estilos según sea necesario */
