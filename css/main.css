@@ -1713,8 +1713,12 @@ h1 {
   letter-spacing: 1px;
   z-index: 50;
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 1s ease, transform 0.3s ease;
 }
 
+.btn-pdf:hover {
+  background: #ff69b4;
+  transform: translateX(-50%) scale(1.05);
+}
 
 /* Agregar más estilos según sea necesario */
