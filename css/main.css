@@ -1721,5 +1721,10 @@ h1 {
   background: #ff69b4;
   transform: translateX(-50%) scale(1.05);
 }
+@media screen and (max-width: 768px) {
+  .boton-pdf {
+    bottom: 120px;
+  }
+}
 
 /* Agregar más estilos según sea necesario */
