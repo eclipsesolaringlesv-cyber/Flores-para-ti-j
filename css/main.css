@@ -16,8 +16,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   perspective: 1000px;
 }
 
