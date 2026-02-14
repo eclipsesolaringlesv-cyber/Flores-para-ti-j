@@ -16,8 +16,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   perspective: 1000px;
 }
 
@@ -1720,6 +1720,13 @@ h1 {
 .btn-pdf:hover {
   background: #ff69b4;
   transform: translateX(-50%) scale(1.05);
+}
+@media screen and (max-width: 600px) {
+  body {
+    display: block;
+    overflow-y: auto;
+    min-height: auto;
+  }
 }
 
 /* Agregar más estilos según sea necesario */
