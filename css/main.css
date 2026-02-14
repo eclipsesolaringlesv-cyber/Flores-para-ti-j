@@ -1702,7 +1702,7 @@ h1 {
 }
 .btn-pdf {
   position: fixed;
-  bottom: 70px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 30px;
