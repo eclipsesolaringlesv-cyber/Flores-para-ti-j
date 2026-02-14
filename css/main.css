@@ -1712,7 +1712,7 @@ h1 {
   border-radius: 30px;
   font-weight: bold;
   letter-spacing: 1px;
-  z-index: 50;
+  z-index: 99999;
   opacity: 0;
   transition: opacity 1s ease, transform 0.3s ease;
 }
