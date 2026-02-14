@@ -1722,10 +1722,10 @@ h1 {
   transform: translateX(-50%) scale(1.05);
 }
 @media screen and (max-width: 600px) {
-  body {
+  body::after {
+    content: "";
     display: block;
-    overflow-y: auto;
-    min-height: auto;
+    height: 120px;
   }
 }
 
