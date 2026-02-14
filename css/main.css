@@ -1721,12 +1721,5 @@ h1 {
   background: #ff69b4;
   transform: translateX(-50%) scale(1.05);
 }
-@media screen and (max-width: 600px) {
-  body::after {
-    content: "";
-    display: block;
-    height: 120px;
-  }
-}
 
 /* Agregar más estilos según sea necesario */
